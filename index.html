@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">We Are Gaming</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle Navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="guestbook.html">Guestbook</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <main class="container-md bg-body text-body">
+    <div class="row text-center my-3">
+      <h2>Competitive Super Smash Bros. Ultimate</h2>
+    </div>
+
+    <!-- rows containing columns containing cards -->
+    <div class="row text-center fs-6 g-2">
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body fs-4">
+            <p>This is just a site for my tournament results, but I did need
+              some text here to pad out this column so that it fits with the
+              height of the table at larger screen sizes. It reaches most of the
+              way at full size, so it's probably good enough.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="card">
+          <h3 class="card-header">Lifetime Tournament Results</h3>
+
+          <!-- div with table-responsive here to prevent the table from escaping the card at xs size -->
+          <div class="table-responsive">
+            <table class="table table-striped table-hover">
+              <thead>
+                <tr>
+                  <th>Tournament</th>
+                  <th>Date</th>
+                  <th>1v1 placement</th>
+                  <th>2v2 placement</th>
+                  <th>Partner</th>
+                </tr>
+              </thead>
+              <tbody class="align-middle table-group-divider">
+                <tr>
+                  <td>Fargo's Fierce Friendly September 2019</td>
+                  <td>September 28th, 2019</td>
+                  <td>5th</td>
+                  <td>1st</td>
+                  <td>Mastronarde</td>
+                </tr>
+                <tr>
+                  <td>Fargo's Fierce Friendly October 2019</td>
+                  <td>October 26th, 2019</td>
+                  <td>2nd</td>
+                  <td>1st</td>
+                  <td>Mastronarde</td>
+                </tr>
+                <tr>
+                  <td>Fargo's Fierce Friendly November 2019</td>
+                  <td>November 23rd, 2019</td>
+                  <td>2nd</td>
+                  <td>1st</td>
+                  <td>Mastronarde</td>
+                </tr>
+                <tr>
+                  <td>Domopalooza Winter Finale</td>
+                  <td>December 7th, 2019</td>
+                  <td>9th</td>
+                  <td>7th</td>
+                  <td>Mastronarde</td>
+                </tr>
+                <tr>
+                  <td>Fargo's Fierce Friendly December 2019</td>
+                  <td>December 21st, 2019</td>
+                  <td>1st</td>
+                  <td>1st</td>
+                  <td>Mastronarde</td>
+                </tr>
+                <tr>
+                  <td>Fargo's Fierce Friendly January 2020</td>
+                  <td>January 25th, 2020</td>
+                  <td>7th</td>
+                  <td>1st</td>
+                  <td>Mastronarde</td>
+                </tr>
+                <tr>
+                  <td>Fargo's Fierce Friendly February 2020</td>
+                  <td>February 22nd, 2020</td>
+                  <td>3rd</td>
+                  <td>1st</td>
+                  <td>Mastronarde</td>
+                </tr>
+                <tr>
+                  <td>Summit of the Dakotas</td>
+                  <td>June 11th-13th, 2021</td>
+                  <td>7th</td>
+                  <td>&mdash;</td>
+                  <td>&mdash;</td>
+                  <!-- mdash works well for data not applicable -->
+                </tr>
+                <tr>
+                  <td>Fargo's Fierce Friendly August 2021</td>
+                  <td>August 14th, 2021</td>
+                  <td>4th</td>
+                  <td>1st</td>
+                  <td>Mastronarde</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-center my-3">&copy; Lily Swenson 2025</footer>
+
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
